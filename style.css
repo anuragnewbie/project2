@@ -2,8 +2,21 @@ body {
     margin-top: 80px;
 }
 
-.img-fluid{
-    width:100%;
+.image{
     height:200px;
-    object-fit: cover;
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .card-title{
+        font-size: 1rem;
+    }
+    .content{
+        font-size:14px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1399px){
+    .card-title{
+        font-size: 1.2rem;
+    }
 }
