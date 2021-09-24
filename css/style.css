@@ -2,9 +2,23 @@ body {
     margin-top: 80px;
 }
 
+h2{
+    text-align: center;
+}
+
+.headtext{
+    font-size: 1.1rem;
+}
+
 .image{
     height:200px;
     width: 100%;
+}
+
+@media (max-width: 767px){
+    h1{
+       font-size: 1.3rem;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px){
@@ -14,10 +28,29 @@ body {
     .content{
         font-size:14px;
     }
+    h1{
+        font-size:1.5rem;
+    }
+}
+
+@media (min-width:768px){
+    h1, .headtext{
+        margin-right: 35px;
+    }
 }
 
 @media (min-width: 992px) and (max-width:1399px){
     .card-title{
         font-size: 1.2rem;
+    }
+    h1{
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 992px){
+    form{
+        margin: auto;
+        width:75%;
     }
 }

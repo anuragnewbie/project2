@@ -29,7 +29,7 @@
                         <a href="#service" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact Us</a>
+                        <a href="#contact" class="nav-link">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -42,7 +42,7 @@
             <div class="d-md-flex align-items-center justify-content-between">
                 <div>
                     <h1>R u interested in <span class="text-danger">coding?</span></h1>
-                    <p class="lead text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit doloribus, quia architecto perspiciatis minima aliquid!</p>
+                    <p class="lead text-justify headtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit doloribus, quia architecto perspiciatis minima aliquid!</p>
                 </div>
                 <img class="img-fluid w-50 d-none d-md-block" src="assets/images/abc.jpg">
             </div>
@@ -51,16 +51,16 @@
 
     <!-- about us section -->
     <section class="p-5 bg-light text-dark" id="desc">
-        <div class="container text-center">
+        <div class="container">
             <h2>We are a group of passionate coders</h2>
-            <p class="lead text-justify mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid corporis porro nobis corrupti perferendis atque nulla, sit placeat optio! Eveniet sapiente sit dolor necessitatibus exercitationem molestias commodi! Id pariatur quis at laboriosam! Aperiam laudantium placeat possimus incidunt quibusdam facere! Unde ratione ipsam magni pariatur modi odio necessitatibus quas, ducimus commodi.</p>
+            <p class="lead  text-center text-justify mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid corporis porro nobis corrupti perferendis atque nulla, sit placeat optio! Eveniet sapiente sit dolor necessitatibus exercitationem molestias commodi! Id pariatur quis at laboriosam! Aperiam laudantium placeat possimus incidunt quibusdam facere! Unde ratione ipsam magni pariatur modi odio necessitatibus quas, ducimus commodi.</p>
         </div>
     </section>
 
     <!-- services section -->
     <section class="p-5 bg-dark text-dark" id="service">
         <div class="container text-center">
-            <h2>Our Services</h2>
+            <h2 class="text-white pb-5">Our Services</h2>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
@@ -101,6 +101,41 @@
             </div>
         </div>
     </section>
+
+    <!-- contact section -->
+    <section class="p-5 mb-5 bg-light text-dark" id="contact">
+        <div class="container">
+            <h2 class="pb-4">Contact</h2>
+            <form class="form-group" action="#" method="POST">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label" for="fname">First Name</label>
+                        <input class="form-control" id="fname" type="text" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label" for="lname">Last Name</label>
+                        <input class="form-control" id="lname" type="text" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control" type="email" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea class="form-control" rows="5" cols="30" id="message"></textarea>
+                </div>
+                <button class="btn btn-lg bg-danger form-control" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="p-5 mt-4 bg-dark text-light text-center">
+        <div class="container">
+            <p class="lead">Copyright &copy; Codelogics Technologies Private Limited 2021</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
